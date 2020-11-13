@@ -1,5 +1,49 @@
 .paragraph {
-  font-size: 50px;
-  line-height: 62px;
+  font-size: 20px;
+  line-height: 20px;
   font-family: "Orbitron", sans-serif;
+}
+body {
+  background: url(https://images.unsplash.com/photo-1503776768674-0e612f631345?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=3900&q=80)
+    no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.navbar {
+  margin-bottom: 0;
+  border-radius: 0;
+}
+@media (max-width: 550px) {
+  #header .bottom-header h1 {
+    font-size: 40px;
+    line-height: 45px;
+  }
+}
+#header .bottom-header p {
+  margin: 0 0 50px;
+  line-height: 0.74;
+  font-weight: 900;
+  font-size: 25px;
+  color: #ffffff;
+  text-transform: uppercase;
+}
+.jumbotron {
+  padding: 0.5em 0.6em;
+  font-size: 12px;
+  background-color: black;
+}
+p {
+  color: White;
+}
+h1 {
+  color: white;
+}
+h2 {
+  color: white;
+}
+div {
+  color: #ffffff;
 }
